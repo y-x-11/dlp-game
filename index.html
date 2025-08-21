@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trash Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #74ebd5, #ACB6E5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3em;
+      color: #222;
+      margin-bottom: 50px;
+      text-shadow: 2px 2px #fff;
+    }
+    .btn {
+      display: block;
+      width: 200px;
+      padding: 15px;
+      margin: 15px;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white;
+      background: #4CAF50;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #45a049;
+    }
+    .credits {
+      background: #2196F3;
+    }
+    .credits:hover {
+      background: #1976D2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trash Game</h1>
+  <a href="play/" class="btn">▶ Play</a>
+  <a href="#credits" class="btn credits">ℹ Credits</a>
+
+  <div id="credits" style="margin-top:50px; font-size:1.2em; color:#333;">
+    <p><strong>Credits:</strong></p>
+    <p>Game Design & Code: 2B Group 6 </p>
+    <p>Built with Pygame + Pygbag + Replit Ai(Claude)</p>
+  </div>
+</body>
+</html>
